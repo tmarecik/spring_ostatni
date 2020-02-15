@@ -28,12 +28,15 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!--HyperSQL-->
+
+		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
 		<dependency>
-			<groupId>org.hsqldb</groupId>
-			<artifactId>hsqldb</artifactId>
-			<scope>runtime</scope>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>8.2.0.jre8</version>
+			<scope>compile</scope>
 		</dependency>
+
 
 		<!--SWAGGER-->
 		<dependency>
