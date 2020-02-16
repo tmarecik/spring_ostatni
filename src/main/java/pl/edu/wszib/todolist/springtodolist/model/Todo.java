@@ -1,7 +1,6 @@
 package pl.edu.wszib.todolist.springtodolist.model;
 
 import javax.persistence.*;
-import java.sql.Timestamp;
 import java.util.Date;
 
 @Entity
@@ -9,7 +8,7 @@ public class Todo {
 
     @Id
     @GeneratedValue
-    public int id;
+    public Integer id;
 
     public String title;
 
@@ -20,11 +19,11 @@ public class Todo {
 
     //konstruktor zostaje defoultowy
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
